@@ -17,22 +17,22 @@ function verificar(){
 
             if(idade > 1 && idade < 16){
 
-                res.innerHTML = `Detectamos uma pessoa do sexo mascuino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo mascuino de idade ${idade}</p>`
                 img.setAttribute('src', 'menino.png')
 
             }else if(idade < 30){
 
-                res.innerHTML = `Detectamos uma pessoa do sexo mascuino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo mascuino de idade ${idade}</p>`
                 img.setAttribute('src', 'jovemadulto.png')
 
             }else if(idade < 50){
 
-                res.innerHTML = `Detectamos uma pessoa do sexo mascuino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo mascuino de idade ${idade}</p>`
                 img.setAttribute('src', 'adulto.png')
 
             }else{
 
-                res.innerHTML = `Detectamos uma pessoa do sexo mascuino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo mascuino de idade ${idade}</p>`
                 img.setAttribute('src', 'idoso.png')
 
             }
@@ -41,22 +41,22 @@ function verificar(){
 
             if(idade > 1 && idade < 16){
 
-                res.innerHTML = `Detectamos uma pessoa do sexo feminino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo feminino de idade ${idade}</p>`
                 img.setAttribute('src', 'menina.png')
 
             }else if(idade < 30){
 
-                res.innerHTML = `Detectamos uma pessoa do sexo feminino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo feminino de idade ${idade}<p/>`
                 img.setAttribute('src', 'jovemadulta.png')
 
             }else if(idade < 50){
 
-                res.innerHTML = `Detectamos uma pessoa do sexo feminino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo feminino de idade ${idade}</p>`
                 img.setAttribute('src', 'adulta.png')
 
             }else{
 
-                res.innerHTML = `Detectamos uma pessoa do sexo feminino de idade ${idade}`
+                res.innerHTML = `<p>Detectamos uma pessoa do sexo feminino de idade ${idade}</p>`
                 img.setAttribute('src', 'idosa.png')
 
             }
